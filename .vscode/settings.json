@@ -1,0 +1,22 @@
+{
+    "githubPullRequests.ignoredPullRequestBranches": [
+        "main"
+    ],
+    "python.testing.pytestArgs": [
+        "my-testnet.whd-pi-app"
+    ],
+    "python.testing.unittestEnabled": true,
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./my-testnet.whd-pi-app",
+        "-p",
+        "*test*.py"
+    ],
+    "idf.flashType": "DFU",
+    "idf.adapterTargetName": "linux",
+    "idf.openOcdConfigs": [
+        "board/esp32-wrover-kit-3.3v.cfg"
+    ]
+}
